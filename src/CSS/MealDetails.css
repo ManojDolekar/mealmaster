@@ -1,0 +1,12 @@
+.scrollbar::-webkit-scrollbar-thumb{
+    background: linear-gradient(55deg, rgba(255, 171, 126, 1.000) 0.000%, rgba(255, 211, 102, 1.000) 50.000%, rgba(247, 206, 104, 1.000) 100.000%);
+    border-radius: 1rem;
+    
+}
+.scrollbar::-webkit-scrollbar{
+    width: 4px;
+    background-color: transparent;
+}
+.scrollbar::-webkit-scrollbar-corner{
+    border-radius: 1rem;
+}
