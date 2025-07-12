@@ -16,12 +16,11 @@
 
 // export default Home
 
-import React from 'react';
 import Banner from './HomePage-Componets/Banner';
 import bannerImg from '../Images/pexels-adonyi-foto-2064359.jpg';
 import Slider from './Slider/Slider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUtensils, faCompass } from '@fortawesome/free-solid-svg-icons';
+import {  faCompass } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
   return (
