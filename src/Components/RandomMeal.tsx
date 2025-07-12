@@ -117,10 +117,10 @@ function RandomMeal() {
         <div ref={container} style={{background:`url(${kitchen})`,backgroundRepeat:'repeat',backgroundSize:'cover'}} className=" sm:w-full md:w-[80%] mx-auto">
         <div  className=" w-full bg-white/98  mx-auto border-black/10  shadow-2xl   ">
             <div className="flex items-center w-full">
-                <div className=" relative w-sm mx-auto">
+                <div className=" relative group w-sm mx-auto ">
                 <img src={meal?.strMealThumb} alt="meal" className=" object-cover mx-auto w-sm rounded-b-4xl " />
                 {
-                    matches ? (<div className=" absolute inline-block top-2 left-2"> <b className="absolute top-2 left-2  rounded-full  size-2 bg-white"></b> <span className="  font-bold text-white px-6 rounded-2xl py-1 bg-red-500"> Non Veg </span></div>) : (<div className=" absolute inline-block top-2 left-2"> <b className="absolute top-2 left-2  rounded-full  size-2 bg-white"></b> <span className="  font-bold  text-white px-6 rounded-2xl py-1 bg-green-500"> Veg </span></div>)
+                    matches ? (<div className=" *: absolute group-hover:rotate-90 group-hover:top-12 group-hover:-left-9 duration-400 delay-300 inline-block top-2 left-2"> <b className="absolute  top-2 left-2  rounded-full  size-2 bg-white"></b> <span className="  font-bold text-white px-6 rounded-2xl py-1 bg-red-500"> Non Veg </span></div>) : (<div className=" absolute inline-block top-2 left-2"> <b className="absolute top-2 left-2  rounded-full  size-2 bg-white"></b> <span className="  font-bold  text-white px-6 rounded-2xl py-1 bg-green-500"> Veg </span></div>)
                 }
                 </div>
             </div>
