@@ -40,6 +40,7 @@ function Header() {
       </div>
 
       {/* Navigation Link */}
+        
       <div className="mx-16">
         <Link
           to="/random-meal"

@@ -239,6 +239,8 @@ function Meals() {
       url.searchParams.append('filter', 'strInstructions');
       url.searchParams.append('query', query.trim());
     }
+    console.log(url.toString());
+    
     return url.toString();
   };
 
@@ -251,6 +253,8 @@ function Meals() {
     keepPreviousData: true,
     staleTime: 5000,
   });
+  console.log(data);
+  
 
   useEffect(() => {
     if (data) {
