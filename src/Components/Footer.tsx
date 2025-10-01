@@ -65,7 +65,7 @@ function Footer() {
       {/* Bottom Footer */}
       <div className="pt-6 text-center text-xs font-semibold text-black/40">
         <span className="bg-gradient-to-r from-black to-orange-500 bg-clip-text text-transparent">
-          Developed by Lifofy Tech
+          Developed by Manoj Dolekar
         </span>{' '}
         • {new Date().getFullYear()}
       </div>
