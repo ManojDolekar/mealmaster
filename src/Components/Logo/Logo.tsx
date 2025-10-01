@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 import mealLogo from'../../Images/39555df2630a18637357f6b27748a360.png'
 
-function Logo(size:any) {
+function Logo() {
   return (
     <div className={`size-12  p-4  flex flex-col items-center justify-center`}>
         <img src={mealLogo} alt="logo" className='object-cover w-full scale-250 mb-2 my-2' />
