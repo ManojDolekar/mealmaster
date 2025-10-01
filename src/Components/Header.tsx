@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Logo from './Logo/Logo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import meal1 from './SliderImages/meal1.jpg';
 import meal2 from './SliderImages/meal2.jpg';
 import meal3 from './SliderImages/meal3.jpg';
@@ -48,7 +48,7 @@ const slides: Slide[] = [
 const Slider = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const scrollerRef = useRef<HTMLDivElement>(null);
-  const [isScrolling, setIsScrolling] = useState(false);
+  // const [isScrolling, setIsScrolling] = useState(false);
 
   useEffect(() => {
     if (scrollerRef.current) {
@@ -56,7 +56,7 @@ const Slider = () => {
       const clone = scroller.cloneNode(true) as HTMLDivElement;
       clone.classList.add('absolute', 'top-0', 'left-full');
       scroller.parentElement?.appendChild(clone);
-      setIsScrolling(true);
+      // setIsScrolling(true);
     }
   }, []);
 
